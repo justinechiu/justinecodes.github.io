@@ -8,13 +8,50 @@
   </head>
   <body>
     <main>
-        <h1>Justine Chiu</h1>
-        <p>Web accessibility advocate and front end developer</p>
-        <p>Based in Ontario, Canada</p>
+        <marquee>Welcome to my home page!</marquee>
+        <section class="intro">
+          <h1>Justine Chiu</h1>
+          <h2>Web developer since 1999</h2>
+          <p>Based in Ontario, Canada</p>
+        </section>
+        <section class="bio">
+          <div class="center">
+            <img src="./unicorn.gif" alt="unicorn" />
+          </div>
+          <p class="center">
+            Sign my guestbook and join my webring!
+          </p>
+        </section>
     </main>
     <style>
       body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        background-color: black;
+        background-image: url('./background.gif');
+        font-family: "Comic Sans MS", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        color: #FFFFFF;
+        max-width: 640px;
+        margin: 20px auto;
+      }
+
+      .center {
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h1, h2, p {
+        background: black;
+        padding: 20px;
+      }
+
+      .intro {
+        text-align: center;
+      }
+
+      .bio {
+        margin: 20px auto;
       }
     </style>
   </body>
