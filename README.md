@@ -1,3 +1,3 @@
-# Justine.Codes
+# Justine's Website
 
-https://justine.codes
+I like dumplings and cameras.
